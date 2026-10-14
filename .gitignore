@@ -1,0 +1,19 @@
+﻿# Secrets: never commit
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+.env
+*.env
+*secret*
+*password*
+internal_users.yml
+docker-compose.yml
+wazuh_indexer_ssl_certs/
+certs/
+
+# OS / editor junk
+Thumbs.db
+Desktop.ini
+~$*
